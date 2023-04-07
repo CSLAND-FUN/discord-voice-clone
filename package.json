@@ -1,0 +1,80 @@
+{
+	"name": "discord-voice",
+	"types": "typings/index.d.ts",
+	"files": [
+		"src/",
+		"typings/"
+	],
+	"scripts": {
+		"gpr": "node scripts/gpr.js",
+		"docs": "docgen --jsdoc jsdoc.json --source src --custom docs/index.yml --output docs/docs.json",
+		"lint": "eslint ."
+	},
+	"version": "3.0.0",
+	"description": "A complete framework to facilitate the tracking of user voice time using discord.js",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Lebyy/discord-voice.git"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://ko-fi.com/lebyy"
+	},
+	"keywords": [
+		"discord",
+		"economy",
+		"discord.js",
+		"bot",
+		"bots",
+		"leveling",
+		"levels",
+		"discord-levels",
+		"discord-xp",
+		"xp",
+		"mongo",
+		"mongoose",
+		"mongodb",
+		"discord-economy",
+		"discord-eco",
+		"framework",
+		"discord-messages",
+		"code",
+		"npm",
+		"messages",
+		"discord-voice",
+		"voice tracker",
+		"voice",
+		"ms",
+		"discordvoice"
+	],
+	"author": "lebyy_dev",
+	"license": "AGPL-3.0",
+	"bugs": {
+		"url": "https://github.com/Lebyy/discord-voice/issues"
+	},
+	"homepage": "https://discord-voice.js.org",
+	"dependencies": {
+		"deepmerge-ts": "^4.2.1",
+		"serialize-javascript": "^6.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.18.6",
+		"@babel/core": "^7.18.6",
+		"@babel/preset-env": "^7.18.6",
+		"@discordjs/docgen": "github:discordjs/docgen",
+		"@types/node": "^18.0.3",
+		"discord.js": "^14.3.0",
+		"eslint": "^8.19.0",
+		"eslint-plugin-node": "^11.1.0",
+		"jsdoc-babel": "^0.5.0",
+		"ms": "^2.1.3",
+		"typescript": "^4.7.4"
+	},
+	"peerDependencies": {
+		"discord.js": ">=14.0.0"
+	},
+	"engines": {
+		"node": ">=16.9.0"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"plugins": [
+		"plugins/markdown",
+		"node_modules/jsdoc-babel"
+	],
+	"babel": {
+		"extensions": ["js"],
+		"babelrc": false,
+		"presets": [
+			["@babel/preset-env", { "targets": { "node": true } }]
+		]
+	}
+}
